@@ -1,9 +1,14 @@
-name: Best Prctice
-markdown: redcarpet
-highlighter: true
+name: Best Practice
+markdown: kramdown
+highlight: pygments
+permalink: /:title/
+paginate: 15
+paginate_path: /page:num
+language: "de"
+encoding: "UTF-8"
+timezone: "Europe/Berlin"
 github:
-  username: cniweb/best-practice
-encoding: UTF-8
+  username: "cniweb/best-practice"
 defaults:
   -
     scope:
@@ -11,3 +16,4 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+      comments: true
