@@ -1,4 +1,5 @@
 name: Best Practice
+slogan: Code, Software, Snippets, Tipps, Tricks, ...
 markdown: kramdown
 highlight: pygments
 permalink: /:title/
@@ -8,6 +9,7 @@ language: "de"
 encoding: "UTF-8"
 timezone: "Europe/Berlin"
 baseurl: /best-practice
+github_url: "https://github.com/cniweb"
 github:
   username: "cniweb"
 defaults:
