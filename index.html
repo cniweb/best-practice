@@ -5,8 +5,8 @@ layout: default
 <ul>
 	{% for post in site.posts %}
 	<li>
-	  <a href="{{ post.url }}">
-			<h3>{{ post.titel }}</h3>
+	  <a href="{{ page.baseurl }}{{ post.url }}">
+			<strong>{{ post.title }}</strong>
 	  </a>
 	</li>
 	{% endfor %}
