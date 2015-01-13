@@ -5,7 +5,7 @@ layout: default
 <ul>
 	{% for post in site.posts %}
 	<li>
-	  <a href="{{ page.baseurl }}{{ post.url }}">
+	  <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
 			<strong>{{ post.title }}</strong>
 	  </a>
 	</li>

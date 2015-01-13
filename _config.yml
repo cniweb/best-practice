@@ -4,23 +4,24 @@ markdown: kramdown
 highlight: pygments
 paginate: 15
 paginate_path: /page:num
-language: "de"
-encoding: "UTF-8"
-timezone: "Europe/Berlin"
+language: de
+encoding: UTF-8
+timezone: Europe/Berlin
+url: http://cniweb.github.io
 baseurl: /best-practice
-github_url: "https://github.com/cniweb"
+github_url: https://github.com/cniweb
 comments:
   provider: disqus
   disqus:
     short_name: jekyllbootstrap
 github:
-  username: "cniweb"
+  username: cniweb
 defaults:
   -
     scope:
       path: "" # ein leerer string an dieser Stelle bezieht alle Projektateien ein
-      type: "posts"
+      type: posts
     values:
-      layout: "default"
-      author: "Christian Häussler"
+      layout: default
+      author: Christian Häussler
       comments: true
