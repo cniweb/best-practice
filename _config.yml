@@ -1,0 +1,13 @@
+name: Best Prctice
+markdown: redcarpet
+highlighter: true
+github:
+  username: cniweb/best-practice
+encoding: UTF-8
+defaults:
+  -
+    scope:
+      path: "" # ein leerer string an dieser Stelle bezieht alle Projektateien ein
+      type: "posts"
+    values:
+      layout: "default"
