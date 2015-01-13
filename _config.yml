@@ -10,6 +10,10 @@ encoding: "UTF-8"
 timezone: "Europe/Berlin"
 baseurl: /best-practice
 github_url: "https://github.com/cniweb"
+comments:
+  provider: disqus
+  disqus:
+    short_name: jekyllbootstrap
 github:
   username: "cniweb"
 defaults:
