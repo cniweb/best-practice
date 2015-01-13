@@ -2,7 +2,6 @@ name: Best Practice
 slogan: Code, Software, Snippets, Tipps, Tricks, ...
 markdown: kramdown
 highlight: pygments
-permalink: /:title/
 paginate: 15
 paginate_path: /page:num
 language: "de"
