@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mein erster Post
-author: Christian Häussler
+author: Christian HÃ¤ussler
 comments: true
 categories: Allgemeines
 date: 2015-01-13 00:00:00
