@@ -3,11 +3,8 @@ layout: default
 ---
 <h2>The project is called {{ site.github.project_title }}.</h2>
 <ul>
-        {% for post in site.posts %}
-        <li>
-                <a href="{{ post.url }}">
-                        <h3>{{ post.titel }}</h3>
-                </a>
-        </li>
-        {% endfor %}
+	{% for post in site.posts %}
+	<li><a href="{{ post.url }}">
+			<h3>{{ post.titel }}</h3>
+	</a></li> {% endfor %}
 </ul>
