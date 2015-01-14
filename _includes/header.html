@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ site.url }}{{ site.baseurl }}/stylesheets/stylesheet.css">
 
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/atom.xml">
+
     <title>{{ page.title }}</title>
   </head>
 
@@ -24,8 +26,8 @@
             [&nbsp;<a href="{{ site.baseurl }}">HOME</a>&nbsp;|
             <a href="#">CATEGORIES</a>|&nbsp;|
             <a href="#">TAGS</a>|&nbsp;|
-            <a href="#">CONTACT</a>|&nbsp;|
-            <a href="#">ABOUT</a>&nbsp;]
+            <a href="{{ site.baseurl }}/archive">ARCHIVE</a>|&nbsp;|
+            <a href="{{ site.baseurl }}/about">ABOUT</a>&nbsp;]
           </section>
         </header>
     </div>
