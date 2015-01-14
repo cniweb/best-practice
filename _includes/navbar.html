@@ -1,5 +1,7 @@
             [&nbsp;<a href="{{ site.baseurl }}">HOME</a>&nbsp;|
-            <a href="#">CATEGORIES</a>|&nbsp;|
-            <a href="#">TAGS</a>|&nbsp;|
-            <a href="{{ site.baseurl }}/archive">ARCHIVE</a>|&nbsp;|
-            <a href="{{ site.baseurl }}/about">ABOUT</a>&nbsp;]
+            <a href="#">CATEGORIES</a>&nbsp;|
+            <a href="#">TAGS</a>&nbsp;|
+            {% for page in site.pages_list %}
+            <a href="{{ page[1]  }}">{{ page[0] }}</a>&nbsp;|
+            {% endfor %}
+            <a href="{{ site.baseurl }}/about">CONTACT</a>&nbsp;]
