@@ -22,6 +22,6 @@ defaults:
       path: "" # ein leerer string an dieser Stelle bezieht alle Projektateien ein
       type: posts
     values:
-      layout: default
+      layout: post
       author: Christian Häussler
       comments: true
