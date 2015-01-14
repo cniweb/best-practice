@@ -1,3 +1,6 @@
 {% include header.html %}
-         {{ content }}
+         <article> 
+           {{ content }}
+           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+         </article>
 {% include footer.html %}
