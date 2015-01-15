@@ -7,11 +7,10 @@ Best practice for some software products
 Web-Page Adress:
 ----------------
 
-:Notex: https://cniweb.github.io/best-practice
+[http://cniweb.github.io/best-practice](http://cniweb.github.io/best-practice "Web-Page Adress")
 
 
 CI-Build:
 ---------
 
-.. figure:: https://travis-ci.org/cniweb/best-practice.svg
-   :scale: 100%
+[![Travis-CI State](https://travis-ci.org/cniweb/best-practice.svg "Travis-CI State")](https://travis-ci.org/cniweb/best-practice)
