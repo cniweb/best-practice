@@ -28,5 +28,10 @@ defaults:
       type: posts
     values:
       layout: post
-      author: Christian Häussler
       comments: true
+      author: Christian Häussler
+      authors:
+       - surname: Christian
+         given-names: Häussler
+         orcid: http://cniweb.github.io
+         email: c-n-i@web.de

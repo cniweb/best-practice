@@ -1,8 +1,7 @@
 ---
 title: "Mein erster Post"
-categories: Allgemeines
-date: 2015-01-13 00:00:00
-tags: [Post, Allgemeines]
+category: Allgemeines
+tags: [Post, Allgemein]
 published: true
 ---
 ## Überschrift
