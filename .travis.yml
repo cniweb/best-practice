@@ -3,5 +3,6 @@ branches:
     - gh-pages
 language: ruby
 script: bundle exec jekyll build
-#install: bundle install
-#script: bundle exec rake site:deploy
+notifications:
+  email:
+    - c-n-i@web.de
