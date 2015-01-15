@@ -1,7 +1,7 @@
 ---
 title: "Mein erster Post"
 category: general
-tag: github
+tags: [github]
 published: true
 ---
 ## Überschrift
