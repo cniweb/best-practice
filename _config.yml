@@ -17,10 +17,13 @@ comments:
 github:
   username: cniweb
 pages_list:
-  Archive: /archive
-  Feed: /atom.xml
-  About: /about
-  Sidemap: /sitemap.xml
+  Home: /best-practice
+  Categories: /best-practice/categories
+  Archive: /best-practice/archive
+  Tags: /best-practice/tags
+  Feed: /best-practice/atom.xml
+  About: /best-practice/about
+  Sidemap: /best-practice/sitemap.xml
 defaults:
   -
     scope:
