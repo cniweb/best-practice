@@ -21,9 +21,9 @@ pages_list:
   Categories: /best-practice/categories
   Archive: /best-practice/archive
   Tags: /best-practice/tags
-  Feed: /best-practice/atom.xml
   About: /best-practice/about
   Sidemap: /best-practice/sitemap.xml
+  Feed: /best-practice/atom.xml
 defaults:
   -
     scope:
