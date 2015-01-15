@@ -17,10 +17,10 @@ comments:
 github:
   username: cniweb
 pages_list:
-  Archive: '/archive'
-  Feed: '/atom.xml'
-  About: '/about'
-  Sidemap: '/sitemap.xml'
+  Archive: /archive
+  Feed: /atom.xml
+  About: /about
+  Sidemap: /sitemap.xml
 defaults:
   -
     scope:
