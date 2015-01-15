@@ -13,7 +13,7 @@ github_url: https://github.com/cniweb
 comments:
   provider: disqus
   disqus:
-    short_name: jekyllbootstrap
+    short_name: best-practice
 github:
   username: cniweb
 pages_list:
