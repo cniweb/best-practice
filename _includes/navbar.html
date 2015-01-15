@@ -1,5 +1,5 @@
             [
             {% for page in site.pages_list %}
-            &nbsp;<a href="{{ page[1]  }}">{{ page[0] }}</a>&nbsp;|
+            &nbsp;<a href="{{ page[1]  }}">{{ page[0] }}</a>&nbsp;{% if forloop.last == false %}|{% endif %}
             {% endfor %}
             ]
