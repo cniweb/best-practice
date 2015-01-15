@@ -1,0 +1,14 @@
+- slug: github
+  name: GitHub
+
+- slug: clearquest
+  name: ClearQuest
+
+- slug: tfs
+  name: TFS
+
+- slug: git
+  name: Git
+
+- slug: eclipse
+  name: Eclipse
