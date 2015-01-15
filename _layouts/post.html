@@ -1,7 +1,13 @@
 {% include header.html %}
+    <main>
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
          <article> 
            {{ content }}
-           <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+           <small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></small>
            {% include comments.html %}
          </article>
+      </section>
+    </div>
+    </main>
 {% include footer.html %}
