@@ -6,7 +6,7 @@ paginate: 15
 paginate_path: /page:num
 language: de
 encoding: UTF-8
-timezone: Europe/Berlin
+#timezone: Europe/Berlin
 url: http://cniweb.github.io
 baseurl: /best-practice
 github_url: https://github.com/cniweb

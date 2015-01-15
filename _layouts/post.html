@@ -1,7 +1,7 @@
 {% include header.html %}
          <article> 
            {{ content }}
-           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+           <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
            {% include comments.html %}
          </article>
 {% include footer.html %}
