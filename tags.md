@@ -16,9 +16,9 @@ title: Tags
           {% assign tag = data_tag %}
       {% endif %}
     {% endfor %}
-    <li>Tag: <a name="{{ tag.name | first }}" href="{{ site.baseurl }}/{{ tag.slug | first }}">{{ tag.name | first }}</a>
+    <li>Tag: <a name="{{ tag.name }}" href="{{ site.baseurl }}/{{ tag.slug }}">{{ tag.name }}</a>
       <ul>
-      {% for posts in tag %}
+      {% for posts in post_tag %}
         {% if forloop.first == false %}
           {% for post in posts %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
