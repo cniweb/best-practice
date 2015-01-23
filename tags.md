@@ -11,7 +11,7 @@ title: Tags
 <div id="post-content">
   <ul>
   {% for tag in site.tags %}
-    <li>Tag: <a name="{{ tag | first }}">{{ tag | first }}</a>
+    <li>Tag: <a name="{{ tag | first }}" href="{{ site.baseurl }}/{{ tag | first }}">{{ tag | first }}</a>
       <ul>
       {% for posts in tag %}
         {% for post in posts %}
