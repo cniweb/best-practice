@@ -1,5 +1,6 @@
 name: Best-Practice
 slogan: Code, Software, Snippets, Tipps, Tricks, ...
+author: Christian Häussler
 markdown: kramdown
 highlight: pygments
 paginate: 15
