@@ -11,7 +11,7 @@ title: Categories
 <div id="post-content">
   <ul>
   {% for category in site.categories %}
-    <li>Category: <a name="{{ category | first }} href="{{ site.baseurl }}/{{ category | first }}">{{ category | first }}</a>
+    <li>Category: <a name="{{ category | first }}" href="{{ site.baseurl }}/{{ category | first }}">{{ category | first }}</a>
       <ul>
       {% for posts in category %}
         {% for post in posts %}
