@@ -11,7 +11,7 @@ so I've put together the relevant copyright information for each one below.
 #### Design and Layout
 
 The design and layout of this site are available from Slate theme.
-This are available from [Jason Costello](https://github.com/jasoncostello).
+This are available from <a href="https://github.com/jasoncostello" target="_blank">Jason Costello</a>.
 
 #### Article Content
 
