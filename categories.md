@@ -14,9 +14,11 @@ title: Categories
     <li>Category: <a name="{{ category | first }}" href="{{ site.baseurl }}/{{ category | first }}">{{ category | first }}</a>
       <ul>
       {% for posts in category %}
+        {% if forloop.first == false %}
         {% for post in posts %}
           <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
+        {% endif 5}
       {% endfor %}
       </ul>
     </li>
