@@ -18,7 +18,7 @@ title: Categories
         {% for post in posts %}
           <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
-        {% endif 5}
+        {% endif %}
       {% endfor %}
       </ul>
     </li>
