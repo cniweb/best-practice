@@ -6,7 +6,7 @@ title: Tags
   <h2>Articles by Tags:</h2>
   <ul>
   {% for tag in site.tags %}
-    <li><a name="{{ tag | first }}">{{ tag | first }}</a>
+    <li>Tag: <a name="{{ tag | first }}">{{ tag | first }}</a>
       <ul>
       {% for posts in tag %}
         {% for post in posts %}
