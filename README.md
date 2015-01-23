@@ -1,8 +1,9 @@
-best.practice
+Best-Practice
 =============
 
-Best practice for some software products
+Best practice for some software products.
 
+This is the GitHub-Project for my Best-Practice Web-Page.
 
 Web-Page Adress:
 ----------------
