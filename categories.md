@@ -14,9 +14,7 @@ title: Categories
       <ul>
       {% for posts in category %}
         {% for post in posts %}
-          {% if forloop.first == false %}
-            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endif %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       {% endfor %}
       </ul>

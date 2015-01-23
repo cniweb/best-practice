@@ -15,9 +15,7 @@ title: Tags
       <ul>
       {% for posts in tag %}
         {% for post in posts %}
-          {% if forloop.first == false %}
-            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endif %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       {% endfor %}
       </ul>
