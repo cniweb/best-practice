@@ -1,13 +1,17 @@
 ---
 layout: default
+title: Home
 ---
-<h2>The project is called {{ site.github.project_title }}.</h2>
-<ul>
-	{% for post in site.posts %}
-	<li>
-	  <a href="{{ site.baseurl }}{{ post.url }}">
-			<strong>{{ post.title }}</strong>
-	  </a>
-	</li>
-	{% endfor %}
-</ul>
+
+<header id="post-header">
+    <h1 id="post-title">Welcome to {{ site.github.project_title }} Web-Page</h1>
+    <h4 id="post-subtitle">Articles by tags:</h4>
+</header>
+
+<div id="post-content">
+  <ul>
+    {% for post in site.posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
