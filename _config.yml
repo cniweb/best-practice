@@ -19,8 +19,8 @@ github:
 pages_list:
   Home: /best-practice
   Categories: /best-practice/categories
-  Archive: /best-practice/archive
   Tags: /best-practice/tags
+  Archive: /best-practice/archive
   About: /best-practice/about
   Sidemap: /best-practice/sitemap.xml
   Feed: /best-practice/atom.xml
