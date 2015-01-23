@@ -15,11 +15,9 @@ title: Archive
       {% if forloop.first %}
         <li>{{ post_year }}
       {% endif %}
-      {% if forloop.first == false %}
           <ul>
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
           </ul>
-      {% endif %}
       {% if forloop.last %}
         </li>
       {% endif %}
