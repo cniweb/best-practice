@@ -16,7 +16,7 @@ title: Categories
           {% assign category = site_category %}
       {% endif %}
     {% endfor %}
-    <li>Category: <a name="{{ category | first }}" href="{{ site.baseurl }}/{{ category | first }}">{{ category | first }}</a>
+    <li>Category: <a name="{{ category.name | first }}" href="{{ site.baseurl }}/{{ category.slug | first }}">{{ category.name | first }}</a>
       <ul>
       {% for posts in category %}
         {% if forloop.first == false %}
