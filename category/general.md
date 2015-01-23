@@ -1,5 +1,5 @@
 ---
 layout: posts_by_category
-categorie: general
+category: general
 permalink: general/
 ---
