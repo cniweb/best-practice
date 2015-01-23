@@ -6,11 +6,11 @@ layout: default
 {{ content }}
 <p id="post-meta"><small>
 Posted on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
- in <a href="/category/{{ post.category }}/">{{ post.category }}</a></span>
-{% if post.tags.size > 0 %}
+ in <a href="/category/{{ page.category }}/">{{ page.category }}</a></span>
+{% if page.tags.size > 0 %}
  with 
-    {% for post_tag in post.tags %}
-      <a href="/tag/{{ post_tag }}/">{{ post_tag }}</a>
+    {% for tag in page.tags %}
+      <a href="/tag/{{ post_tag }}/">{{ tag }}</a>
     {% endfor %}
 {% endif %}
 </small></p>
