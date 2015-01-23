@@ -6,7 +6,7 @@ title: Categories
   <h2>Articles by Category:</h2>
   <ul>
   {% for category in site.categories %}
-    <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <li>Category:<a name="{{ category | first }}">{{ category | first }}</a>
       <ul>
       {% for posts in category %}
         {% for post in posts %}
